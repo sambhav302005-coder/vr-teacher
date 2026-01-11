@@ -75,41 +75,6 @@ public class APIConfig : ScriptableObject
 
 3. Never commit API keys to the repository (add to `.gitignore`)
 
-### 5. Setup VR
-
-1. Go to `Edit > Project Settings > XR Plug-in Management`
-2. Enable your VR platform (Oculus, OpenXR, etc.)
-3. Configure XR settings for your target device
-
-## 📁 Project Structure
-
-```
-Assets/
-├── Scenes/
-│   ├── MainMenu.unity
-│   ├── VirtualClassroom.unity
-│   └── CalibrationScene.unity
-├── Scripts/
-│   ├── AI/
-│   │   ├── ConvaiManager.cs
-│   │   └── SpeechRecognition.cs
-│   ├── Avatar/
-│   │   ├── AvatarLoader.cs
-│   │   └── AvatarAnimationController.cs
-│   ├── VR/
-│   │   ├── VRController.cs
-│   │   └── InteractionHandler.cs
-│   └── UI/
-│       └── MenuController.cs
-├── Prefabs/
-│   ├── Teacher Avatar/
-│   ├── VR Rig/
-│   └── Classroom Objects/
-├── Materials/
-├── Animations/
-└── Resources/
-    └── Config/
-```
 
 ## 🎮 How to Use
 
